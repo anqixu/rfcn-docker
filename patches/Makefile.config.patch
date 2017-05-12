@@ -1,0 +1,14 @@
+5c5
+< # USE_CUDNN := 1
+---
+> USE_CUDNN := 1
+91c91
+< # WITH_PYTHON_LAYER := 1
+---
+> WITH_PYTHON_LAYER := 1
+94,95c94,95
+< INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include
+< LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib
+---
+> INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
+> LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/x86_64-linux-gnu/hdf5/serial/

@@ -1,0 +1,4 @@
+29c29
+<     self_.attr("phase") = static_cast<int>(this->phase_);
+---
+>     //self_.attr("phase") = static_cast<int>(this->phase_);

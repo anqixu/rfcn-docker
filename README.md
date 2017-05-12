@@ -1,2 +1,2 @@
 # rfcn-docker
-Docker image for R-FCN codebases
+Docker image that supports py-R-FCN, py-faster-rcnn, and forked derivatives (running on caffe engine)
