@@ -1,0 +1,4 @@
+181c181
+< LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_hl hdf5
+---
+> LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl hdf5_serial
